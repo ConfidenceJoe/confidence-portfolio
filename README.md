@@ -59,8 +59,8 @@ Through this project, I strengthened my understanding of:
 
 ## Live Demo
 
-.
+ https://confidencejoe.github.io/confidence-portfolio/
 
 ## Author
 
-Confidence
+Confidence (DevConfidence)
