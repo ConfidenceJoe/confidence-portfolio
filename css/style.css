@@ -1,0 +1,313 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0F172A;
+}
+
+.main {
+    flex: 1;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    margin: 0;
+    /* background-color: #F0E6F6; */
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #9284B8;
+    text-decoration: none;
+}
+
+.nav-container {
+    display: flex;
+}
+
+nav > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9284B8;
+    font-size: 1.2rem;
+}
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #B88E84;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.media-section {
+  display: flex;          /* Sets up the side-by-side flexbox container */
+  align-items: center;    /* Vertically aligns image and text to the center */
+  gap: 20px;              /* Spacing between the image and text blocks */
+  padding: 40px;
+  background-color: #0F172A;
+  margin: 0;
+  border-radius: 9%;
+  border: 2px solid #9284B8;
+}
+
+.image-box img {
+  width: 100%;           /* Makes the image take up the full width of its container */
+  max-width: 400px;       /* Ensures responsive scaling */
+  height: auto;
+  display: block;
+  border-radius: 10%;
+}
+
+.text-box {
+  flex: 1;                /* Allows text container to fill remaining width */
+  color: #E5E7EB;
+  padding: 20px;
+  font-size: 1.2rem;
+}   
+
+.project-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;              /* Spacing between project cards */
+    padding: 40px;
+    margin: 0;
+    background-color: #823D31;
+    border-radius: 8%;
+    border: 2px solid #FFD3F0;
+}
+
+.btn-container a {
+    text-decoration: none;
+    justify-content: center;
+    color: #3FB88E;
+    font-size: 1.2rem;
+    height: 50px;
+    max-width: 120px; 
+    padding: 10px; 
+    background-color: lightpink;
+    border-radius: 10%;
+}
+
+.btn-container a:hover {
+    color: #B88E84;
+    background-color: #3FB88E;
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #E5E7EB;
+    border-top: 1px solid #9284B8;
+}
+
+            /* About Section Styling */
+
+.main-container-about {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    background-color: #0F172A;
+    margin: 0;
+    border-radius: 9%;
+    border: 2px solid #9284B8;
+    align-items: center;
+}         
+
+.main-container-skill {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    margin: 0;
+    border-radius: 9%;
+    border: 2px solid #FFD3F0;
+    background-color: #823D31;
+    align-items: center;
+}
+
+                    /* Project Section Styling */
+
+.tindog-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;              /* Spacing between project cards */
+    padding: 40px;
+    margin: 0;
+    border-radius: 1% 1% 5% 1%;
+    border: 2px solid #FFD3F0;
+    border-width: 0 2px 2px 2px; /* Top, Right, Bottom, Left */
+}    
+
+.view img {
+  max-width: 200px;       /* Ensures responsive scaling */
+  height: auto;
+  display: block;
+  border-radius: 5%;
+}
+
+.web-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;              /* Spacing between project cards */
+    padding: 40px;
+    margin-top: 50px;
+    border-width: 3px 3px 0px 3px; /* Top, Right, Bottom, Left */
+    border-style: dotted;
+    border-radius: 5% 1% 0% 1%;
+    border-color: #FFD3F0
+} 
+
+.views img {
+  max-width: 300px;       /* Ensures responsive scaling */
+  height: auto;
+  display: block;
+  border-radius: 5%;
+}
+
+.moving-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 50px;              /* Spacing between project cards */
+    padding: 40px;
+    margin-top: 50px;
+    border:  groove #B88E84;
+    border-width: 0px 4px 0px 4px;
+    border-radius: 10px;
+}
+
+.viewe img {
+  max-width: 250px;       /* Ensures responsive scaling */
+  height: auto;
+  display: block;
+  border-radius: 5%;
+}
+
+.mondrian-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;              /* Spacing between project cards */
+    padding: 40px;
+    margin-top: 20px;
+    border: solid #B88E84;
+    border-width: 3px 0px 0px 0px; /* Top, Right, Bottom, Left */
+    border-radius: 3% 3% 0% 0%;
+} 
+
+.viewss img {
+  max-width: 250px;       /* Ensures responsive scaling */
+  height: auto;
+  display: block;
+}
+
+.project-text{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;              /* Spacing between project cards */
+    padding: 40px;
+    margin: 0;
+}
+
+.btn-container-contact a {
+    display: flex;
+    background-color: #B88E84;
+    max-width: 120px;
+    height: 50px;
+    margin: 20px;
+    text-decoration: none;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+
+.btn-container-contact a:hover {
+    background-color: #E5E7EB;
+    color: #3FB88E;
+}
+
+.get {
+    color: #E5E7EB;
+    font-size: 2rem;
+    text-align: center;
+}
+
+                                /* Media-queries section */
+
+@media (max-width: 768px) {
+
+    .media-section,
+    .project-section,
+    .main-container-about,
+    .main-container-skill,
+    .contact-section,
+    .tindog-section,
+    .moving-section,
+    .web-section,
+    .mondrian-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+    .image-box img,
+    .view img,
+    .viewe img,
+    .views img,
+    .viewss img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .btn-container,
+    .btn-container-contact {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tindog-section,
+    .moving-section,
+    .web-section,
+    .mondrian-section {
+        padding: 20px;
+    }
+
+    nav ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}                                
